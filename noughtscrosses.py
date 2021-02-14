@@ -1,0 +1,2 @@
+b=[" "]*9;m="789456123";l=list(zip(*(iter("012345678036147258048246"),)*3));c=lambda y:3 in[[b[int(z)]for z in q].count(y)for q in l];s="x";p=print
+while b:u=m.index(input(f"\n{s}> "));b[u],s=[(b[u],s),(s,"x"if s=="o"else"o")][b[u]==" "];[p(" ".join(b[i*3:i*3+3]))for i in(0,1,2)];p("\n-WIN "+s if c(s)else"",end="\n-DRAW"if" "not in b else"")

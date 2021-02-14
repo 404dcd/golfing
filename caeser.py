@@ -1,0 +1,1 @@
+i=input;a=[chr(x)for x in range(65,91)];m=i("M>");k=int(i("K>"));p=print;k=[k,-k][i("m>")=="d"];[p(a[(a.index(c)+k)%26],end="")if c in a else p(end=" ")for c in m]
